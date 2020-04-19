@@ -234,7 +234,7 @@ function emptyFields() {
 	return gameBoard.filter(elem => typeof (elem) === "number");
 }
 
-//clear the board if use clicks the "clear" button
+//clear the board if user clicks the "clear" button
 button.addEventListener("click", clearBoard);
 
 function clearBoard() {
